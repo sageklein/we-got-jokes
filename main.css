@@ -1,36 +1,43 @@
-body { 
-    background-color: rgb(255, 248, 248);
-    font-family: Oswald, Geneva, sans-serif;
-    color: rgba(39, 37, 28, 0.877);
-    padding-bottom: 15px;
+body {
+	background-color: #e4e8f7;
+	background-image: url("https://www.transparenttextures.com/patterns/skulls.png");
+	font-family: "Josefin Sans", "Lobster", 'Montserrat', sans-serif;
+	color: #000e38;
+	padding-bottom: 10px;
 }
 h1 {
-    padding-left: 15px;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    text-align: center;
-    font-size: 25px;
-    color: rgb(218, 129, 129);
+	padding-left: 15px;
+	padding-bottom: 1em;
+	letter-spacing: 4px;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 2px 2px #e4e8f7;
+	font-size: 28px;
+	color: #000e38;
 }
 h2 {
-    padding-left: 15px;
-    text-transform: uppercase;
-    letter-spacing: 6px;
-    font-size: 15px;
-    color: rgb(52, 115, 131);
+	padding-left: 15px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	font-family: 'Montserrat';
+	color: #000e38;
+}
+#jokeDiv {
+	max-width: 680px;
+	min-height: 100px;
+    padding-left: 2px;
+    font-family: 'Montserrat';
 }
 #button {
-    background-color: rgb(218, 129, 129);
-    justify-content: space-between;
-    max-width: 200px;
-    flex-direction: column;
-    border-radius: 0px;
-    text-align: center;
-    padding-left: 15px;
-    text-transform: uppercase;
-    letter-spacing: 15px;
-    font-size: 12px;
-    color: rgb(52, 115, 131);
-    padding: 15px;
-    float: right;
+	background-color: #e4e8f7;
+	text-shadow: 1px 1px #eef5fe;
+	justify-content: space-between;
+	flex-direction: column;
+	border-radius: 4px;
+	letter-spacing: 1px;
+	font-family: "Lobster";
+	font-size: 18px;
+	color: #000e38;
+	padding: 6px 15px 6px 15px;
+	float: right;
 }
